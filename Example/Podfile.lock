@@ -1,0 +1,27 @@
+PODS:
+  - MFBSequence (0.1.0)
+  - OCMock (3.3.1)
+
+DEPENDENCIES:
+  - MFBSequence (from `../`)
+  - OCMock (from `https://github.com/flix-tech/ocmock`, branch `custom`)
+
+EXTERNAL SOURCES:
+  MFBSequence:
+    :path: ../
+  OCMock:
+    :branch: custom
+    :git: https://github.com/flix-tech/ocmock
+
+CHECKOUT OPTIONS:
+  OCMock:
+    :commit: eeedb560a45ff843da45c605248bee68af1495bc
+    :git: https://github.com/flix-tech/ocmock
+
+SPEC CHECKSUMS:
+  MFBSequence: 06fe008982c87a6e2c4131e58aef7ca9eb513b9c
+  OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
+
+PODFILE CHECKSUM: d6da51a0b0d09acfd6c01c4902172706abc76018
+
+COCOAPODS: 1.0.1
